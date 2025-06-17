@@ -17,7 +17,7 @@
 #pragma GCC diagnostic ignored "-Wstrict-aliasing"
 #pragma GCC diagnostic ignored "-Wold-style-cast"
 #endif
-#include "Emu/CPU/sse2neon.h"
+#include <sse2neon.h>
 #ifndef _MSC_VER
 #pragma GCC diagnostic pop
 #endif

@@ -23,7 +23,7 @@
 #pragma GCC diagnostic ignored "-Wstrict-aliasing"
 #endif
 #undef FORCE_INLINE
-#include "Emu/CPU/sse2neon.h"
+#include <sse2neon.h>
 #endif
 
 const extern spu_decoder<spu_itype> g_spu_itype;

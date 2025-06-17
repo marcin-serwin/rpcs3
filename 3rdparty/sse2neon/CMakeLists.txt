@@ -1,0 +1,2 @@
+add_library(3rdparty_sse2neon INTERFACE)
+target_include_directories(3rdparty_sse2neon INTERFACE sse2neon)

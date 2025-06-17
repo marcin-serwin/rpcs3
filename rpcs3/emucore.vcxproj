@@ -543,6 +543,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\3rdparty\stblib\stb\stb_image.h" />
+    <ClInclude Include="..\3rdparty\sse2neon\sse2neon\sse2neon.h" />
     <ClInclude Include="..\Utilities\address_range.h" />
     <ClInclude Include="..\Utilities\cheat_info.h" />
     <ClInclude Include="..\Utilities\simple_ringbuf.h" />
@@ -573,7 +574,6 @@
     <ClInclude Include="Emu\Cell\Modules\sys_crashdump.h" />
     <ClInclude Include="Emu\config_mode.h" />
     <ClInclude Include="Emu\CPU\Hypervisor.h" />
-    <ClInclude Include="Emu\CPU\sse2neon.h" />
     <ClInclude Include="Emu\games_config.h" />
     <ClInclude Include="Emu\Io\Buzz.h" />
     <ClInclude Include="Emu\Io\buzz_config.h" />

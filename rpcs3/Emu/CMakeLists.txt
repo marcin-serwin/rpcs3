@@ -627,6 +627,7 @@ target_link_libraries(rpcs3_emu
         3rdparty::sdl3
         3rdparty::opengl
         3rdparty::stblib
+        3rdparty::sse2neon
         3rdparty::vulkan
         3rdparty::glew
         3rdparty::libusb

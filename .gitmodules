@@ -108,3 +108,6 @@
 	path = 3rdparty/GPUOpen/VulkanMemoryAllocator
 	url = ../../GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git
 	ignore = dirty
+[submodule "3rdparty/sse2neon/sse2neon"]
+	path = 3rdparty/sse2neon/sse2neon
+	url = https://github.com/DLTcollab/sse2neon

@@ -127,6 +127,9 @@ endif()
 # stblib
 add_subdirectory(stblib)
 
+# sse2neon
+add_subdirectory(sse2neon)
+
 # DiscordRPC
 add_subdirectory(discord-rpc)
 
@@ -374,6 +377,7 @@ add_library(3rdparty::hidapi ALIAS 3rdparty_hidapi)
 add_library(3rdparty::libpng ALIAS ${LIBPNG_TARGET})
 add_library(3rdparty::opengl ALIAS 3rdparty_opengl)
 add_library(3rdparty::stblib ALIAS 3rdparty_stblib)
+add_library(3rdparty::sse2neon ALIAS 3rdparty_sse2neon)
 add_library(3rdparty::discordRPC ALIAS 3rdparty_discordRPC)
 add_library(3rdparty::faudio ALIAS ${FAUDIO_TARGET})
 add_library(3rdparty::libevdev ALIAS ${LIBEVDEV_TARGET})
