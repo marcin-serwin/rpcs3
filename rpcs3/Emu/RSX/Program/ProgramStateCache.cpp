@@ -18,9 +18,6 @@
 #pragma GCC diagnostic ignored "-Wold-style-cast"
 #endif
 #include <sse2neon.h>
-#ifndef _MSC_VER
-#pragma GCC diagnostic pop
-#endif
 #endif
 
 #ifdef _MSC_VER
